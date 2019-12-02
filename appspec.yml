@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: ./my-app-1.0-SNAPSHOT.war
-    destination: /apps/apache-tomcat-8.5.49/webapps/
+    destination: /tmp/
