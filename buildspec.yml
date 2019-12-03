@@ -11,7 +11,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn prepare-package
+      - mvn clean prepare-package war:war
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.war
